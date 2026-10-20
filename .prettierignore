@@ -1,0 +1,6 @@
+node_modules
+.tools
+dist
+backend/target
+package-lock.json
+*.zip

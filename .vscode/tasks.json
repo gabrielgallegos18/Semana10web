@@ -1,0 +1,41 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Frontend: instalar dependencias",
+      "type": "shell",
+      "command": ".\\scripts\\frontend.cmd install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: iniciar",
+      "type": "shell",
+      "command": ".\\scripts\\frontend.cmd dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "Backend: iniciar",
+      "type": "shell",
+      "command": ".\\scripts\\backend.cmd dev",
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: pruebas",
+      "type": "shell",
+      "command": ".\\scripts\\frontend.cmd test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: compilar",
+      "type": "shell",
+      "command": ".\\scripts\\frontend.cmd build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Backend: comprobar",
+      "type": "shell",
+      "command": ".\\scripts\\backend.cmd test",
+      "problemMatcher": []
+    }
+  ]
+}
